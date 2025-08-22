@@ -137,3 +137,8 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# Functions
+/functions/node_modules/
+/functions/npm-debug.log*
+/functions/yarn-error.log*
