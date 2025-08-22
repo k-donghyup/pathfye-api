@@ -1,0 +1,18 @@
+{
+  "name": "firebase-functions-api",
+  "version": "1.0.0",
+  "description": "A Firebase Cloud Function API.",
+  "main": "index.js",
+  "scripts": {
+    "serve": "firebase emulators:start --only functions",
+    "deploy": "firebase deploy --only functions"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "dependencies": {
+    "firebase-admin": "^11.0.1",
+    "firebase-functions": "^4.0.0"
+  },
+  "private": true
+}
